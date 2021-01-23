@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="American History">
+		<meta name="author" content="Nicholas Liu">
+		<title>American History</title>
+		<link rel="stylesheet" type="text/css" href="css/data.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/javasrc.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="box">
+				<div id="identity">
+					<h1>American History</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html" title="Return Home">Menu</a></li>
+						<li onclick="openNav1()" title="1700's - 1800's">18th - 19th Century</a></li>
+						<li onclick="openNav2()" title="1900's">20th Century</a></li>
+						<li onclick="openNav3()" title="2000's">21st Century</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<section>
+		
+			<article>
+				<div id="anim1" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+					<div class="overlay-content">
+						<a href="18th-19th%20Century.html">Overview</a>
+						<a href="RevolutionaryWar.html">Revolutionary War</a>
+						<a href="#">War of 1812</a>
+						<a href="#">Mexican - American War</a>
+						<a href="#">Civil War</a>
+						<a href="#">Spanish - American War</a>
+						<a href="#">Philippine - American War</a>
+					</div>
+				</div>
+			</article>
+			
+			<article>
+				<div id="anim2" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+					<div class="overlay-content">
+						<a href="20thCentury.html">Overview</a>
+						<a href="#">World War I</a>
+						<a href="#">World War II</a>
+						<a href="#">Korean War</a>
+						<a href="#">Vietnam War</a>
+						<a href="#">Cold War</a>
+						<a href="#">Gulf War</a>
+					</div>
+				</div>
+			</article>
+			
+			<article>
+				<div id="anim3" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+					<div class="overlay-content">
+						<a href="21stCentury.html">Overview</a>
+						<a href="#">War in Afghanistan</a>
+						<a href="#">Iraq War</a>
+						<a href="#">War in North-West Pakistan</a>
+						<a href="#">War on ISIL</a>
+						<a href="#">War in Afghanistan</a>
+					</div>
+				</div>
+			</article>
+			
+		</section>
+			
+		<section>
+			<div class="fadein">
+				<img src="img/pic1.jpg">
+				<img src="img/pic2.jpg">
+				<img src="img/pic3.jpg">
+			</div>
+		</section>
+		
+		<section id="qarea">
+			<div class="box">
+				<p> 
+					<blockquote>
+						<em> <q>We hold these truths to be self-evident: 
+									that all men are created equal; that they are endowed by their Creator with certain unalienable rights; 
+									that among these are life, liberty, and the pursuit of happiness.</q> <br> <br> </em> 
+						<cite> - Thomas Jefferson </cite>
+					</blockquote>
+				</p>
+			</div>
+		</section>
+		
+		<section id="basicinfo">
+			<div class="box">
+				<h1>Overview</h1>
+				
+				<article>
+					<div class="part" id="box1">
+						<h2 title="1700's - 1800's">18th - 19th Century</h2>
+						<a href="18th-19th%20Century.html">
+							<img src="img/pic4.jpg" style="width:100%;height:254px;" title="George Washington Rallying Soldiers" alt="Revolutionary War"/>
+						</a>
+						<p>After America won the Revolutionary War in 1783, 
+							the belief of Manifest Destiny had the US involved in the Mexican-American War and the Spanish-American War to expand their territory. 
+							The United States would also endure the War of 1812 and the Civil War during this period.</p>
+					</div>
+				</article>
+				
+				<article>
+					<div class="part" id="box2">
+						<h2 title="1900's">20th Century</h2>
+						<a href="20thCentury.html">
+							<img src="img/pic5.jpg" style="width:100%;height:254px;" title="Raising American Flag at Iwo Jima" alt="American Victory at Iwo Jima"/>
+						</a>
+						<p>The 20th Century had seen the bloodiest and most costly wars in the history of the world. 
+							During the 20th Century, the United States was involved in both world wars, the Korean and Vietnam War, and the Cold War;
+							this made the 20th Century the deadliest time in American History, with over 1.5 million American casualties.</p>
+					</div>
+				</article>
+				
+				<article>
+					<div class="part" id="box3">
+						<h2 title="2000's">21st Century</h2>
+						<a href="21stCentury.html">
+							<img src="img/pic6.jpg" style="width:100%;height:254px;" title="Modern American Soldiers" alt="Modern American Soldiers"/>
+						</a>
+						<p>American conflicts in the 21st Century greatly revolved around America&#39;s War on Terror in response to the 9/11 attacks and civil wars in the Middle East to counter terrorism and instability in the region.
+							These conflicts include the War in Afghanistan, the Iraq War, and the War on ISIL.</p>
+					</div>
+				</article>
+				
+			</div>
+		</section>
+		
+		<section>
+			<button onclick="topFunction()" id="Button" title="Return to Top of Page"><i class="arrow" id="uparrow"></i></button>
+		</section>
+		
+		<footer>
+			<a href="18th-19th%20Century.html" class="next" id="floatr" title="18th - 19th Century">Next &#8250;</a>		
+			<p id="fix">By: Nicholas Liu</p>
+		</footer>
+	</body>
+</html>
