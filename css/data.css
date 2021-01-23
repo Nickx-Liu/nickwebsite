@@ -29,16 +29,12 @@ a {
 	margin: auto;
 	margin-bottom: 50px !important;
 	overflow: hidden;
-	width: 85%;
+	width: 88%;
 	line-height: 1.8;
 }
 
-.text h2 {
-	font-size: 34px;
-}
-
 .text p {
-	font-size: 19px;
+	font-size: 18px;
 }
 
 .text hr {
@@ -81,30 +77,7 @@ figcaption {
 	font-size: 1.2em;
 }
 
-#box1 {
-	position: relative;
-	left: 10px;
-}
-
-#box2 {
-	position: relative;
-	left: 50px;
-}
-
-#box3 {
-	position: relative;
-	left: 90px;
-}
-
-#box4 {
-	position: relative;
-	left: 255px;
-}
-
-#box5 {
-	position: relative;
-	left: 295px;
-}
+/*========== Header ==========*/
 
 header {
 	background-color: #030303;
@@ -150,6 +123,8 @@ header li:hover, header a:hover {
 	color: #7f7f7f !important;
 	font-weight: bold;
 }
+
+/*========== Overlay ==========*/
 
 .overlay {
     height: 0%;
@@ -214,13 +189,15 @@ blockquote {
 	text-align: justify;
 }
 
+/*========== Title box ==========*/
+
 #titlebox {
 	color: #ffffff;
 	text-align: center;
 	position: relative;
 	top: 320px;
 	margin: auto;
-	padding: 0;
+	padding: 20px;
 	overflow: hidden;
 	width: 80%;
 	font-family: "Roboto Condensed" !important;
@@ -228,7 +205,7 @@ blockquote {
 }
 
 #titlebox h1 {
-	font-size: 120px;
+	font-size: 38px;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -239,6 +216,8 @@ blockquote {
 	margin-top: 15px;
 }
 
+/*========== basicinfo part ==========*/
+
 #basicinfo {
 	margin-top: 20px;
 	width: auto;
@@ -246,16 +225,22 @@ blockquote {
 
 #basicinfo .part {
 	float: left;
-	line-height: 1.57;
-	margin: auto;
-	padding: 10px;
+	display: block;
 	position: relative;
 	text-align: center;
-	width: 30%;
+	line-height: 1.57;
+	padding: 10px;
+	width: 350px; 
 }
 
-#basicinfo .part p {
-	text-align: justify !important;
+#basicinfo .part h2{
+	font-size: 18px;
+}
+
+#basicinfo .part img {
+	display: block;
+	width: 350px; 
+	width: 270px; 
 }
 
 #basicinfo h1, .text h1 {
@@ -306,6 +291,8 @@ blockquote {
   100% { opacity: 0; }
 }
 
+/*========== fadein ==========*/
+
 .fadein {
 	position: relative;
 }
@@ -342,14 +329,6 @@ blockquote {
 	animation-delay: 10s; 
 }
 
-footer a {
-    display: inline-block;
-    padding: 8px 16px;
-	margin: 0;
-	position: relative;
-	bottom: 70px;
-	border-radius: 10px;
-}
 
 #floatl {
 	float: left;
@@ -394,7 +373,19 @@ footer a {
 	left: 45px !important;
 }
 
+/*========== Footer ==========*/
+
 footer p {
 	position: relative;
 	right: 20px;
 }
+
+footer a {
+    display: inline-block;
+    padding: 8px 16px;
+	margin: 0;
+	position: relative;
+	bottom: 70px;
+	border-radius: 10px;
+}
+
